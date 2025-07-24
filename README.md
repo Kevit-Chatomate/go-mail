@@ -6,14 +6,14 @@ SPDX-License-Identifier: MIT
 
 # go-mail - Easy to use, yet comprehensive library for sending mails with Go
 
-[![GoDoc](https://godoc.org/github.com/wneessen/go-mail?status.svg)](https://pkg.go.dev/github.com/wneessen/go-mail)
+[![GoDoc](https://godoc.org/github.com/Kevit-Chatomate/go-mail?status.svg)](https://pkg.go.dev/github.com/Kevit-Chatomate/go-mail)
 [![codecov](https://codecov.io/gh/wneessen/go-mail/branch/main/graph/badge.svg?token=37KWJV03MR)](https://codecov.io/gh/wneessen/go-mail) 
-[![Go Report Card](https://goreportcard.com/badge/github.com/wneessen/go-mail)](https://goreportcard.com/report/github.com/wneessen/go-mail) 
+[![Go Report Card](https://goreportcard.com/badge/github.com/Kevit-Chatomate/go-mail)](https://goreportcard.com/report/github.com/Kevit-Chatomate/go-mail) 
 [![Mentioned in Awesome Go](https://awesome.re/mentioned-badge-flat.svg)](https://github.com/avelino/awesome-go)
 [![#go-mail on Discord](https://img.shields.io/badge/Discord-%23go%E2%80%93mail-blue.svg)](https://discord.gg/ysQXkaccXk) 
-[![REUSE status](https://api.reuse.software/badge/github.com/wneessen/go-mail)](https://api.reuse.software/info/github.com/wneessen/go-mail)
+[![REUSE status](https://api.reuse.software/badge/github.com/Kevit-Chatomate/go-mail)](https://api.reuse.software/info/github.com/Kevit-Chatomate/go-mail)
 [![OpenSSF Best Practices](https://www.bestpractices.dev/projects/8701/badge)](https://www.bestpractices.dev/projects/8701)
-[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/wneessen/go-mail/badge)](https://securityscorecards.dev/viewer/?uri=github.com/wneessen/go-mail)
+[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/Kevit-Chatomate/go-mail/badge)](https://securityscorecards.dev/viewer/?uri=github.com/Kevit-Chatomate/go-mail)
 <a href="https://ko-fi.com/D1D24V9IX"><img src="https://uploads-ssl.webflow.com/5c14e387dab576fe667689cf/5cbed8a4ae2b88347c06c923_BuyMeACoffee_blue.png" height="20" alt="buy ma a coffee"></a>
 
 <p style="text-align: center"><img src="./assets/gopher2.svg" width="250" alt="go-mail logo"/></p>
@@ -57,7 +57,7 @@ Here are some highlights of go-mail's featureset:
 * [X] Middleware support for 3rd-party libraries to alter mail messages
 * [X] Support sending mails via a local sendmail command
 * [X] Support for requestng MDNs (RFC 8098) and DSNs (RFC 1891)
-* [X] DKIM signature support via [go-mail-middlware](https://github.com/wneessen/go-mail-middleware)
+* [X] DKIM signature support via [go-mail-middlware](https://github.com/Kevit-Chatomate/go-mail-middleware)
 * [X] Message object satisfies `io.WriterTo` and `io.Reader` interfaces
 * [X] Support for Go's `html/template` and `text/template` (as message body, alternative part or attachment/emebed)
 * [X] Output to file support which allows storing mail messages as e. g. `.eml` files to disk to open them in a MUA
@@ -94,7 +94,7 @@ fulfill. Yet, since version v0.2.8 we've added support for middleware on the `Ms
 alter a given mail message to their needs without relying on `go-mail` to support their specific need.
 
 To get our users started with message middleware, we've created a collection of useful middlewares. It can be 
-found in a seperate repository: [go-mail-middlware](https://github.com/wneessen/go-mail-middleware).
+found in a seperate repository: [go-mail-middlware](https://github.com/Kevit-Chatomate/go-mail-middleware).
 
 ## Merch
 Thanks to our wonderful friends at [HelloTux](https://www.hellotux.com) we can offer great go-mail merchandising. All merch articles are embroidery 
@@ -113,7 +113,7 @@ go-mail was initially created and developed by [Winni Neessen](https://github.co
 contributed ot the project. Big thanks to all of them for improving the go-mail project (be it writing code, testing
 code, reviewing code, writing documenation or helping to translate the website):
 
-<a href="https://github.com/wneessen/go-mail/graphs/contributors">
+<a href="https://github.com/Kevit-Chatomate/go-mail/graphs/contributors">
   <img alt="image of contributors" src="https://contrib.rocks/image?repo=wneessen/go-mail" />
 </a>
 

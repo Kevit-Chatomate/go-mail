@@ -15,8 +15,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/wneessen/go-mail/log"
-	"github.com/wneessen/go-mail/smtp"
+	"github.com/Kevit-Chatomate/go-mail/log"
+	"github.com/Kevit-Chatomate/go-mail/smtp"
 )
 
 const (
