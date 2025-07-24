@@ -10,7 +10,7 @@ package mail
 import (
 	"errors"
 
-	"github.com/wneessen/go-mail/smtp"
+	"github.com/Kevit-Chatomate/go-mail/smtp"
 )
 
 // SendWithSMTPClient attempts to send one or more Msg using a provided smtp.Client with an
